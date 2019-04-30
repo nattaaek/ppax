@@ -29,6 +29,12 @@ app.post("/insert", (req, res) => {
     });
 });
 
+app.get("/ticket", (req, res) => {
+    db.reservation.find({}, (err, result) => {
+        res.json(result);
+    })
+});
+
 
 app.listen(3000, () => {
  console.log("Server running on port 3000");
