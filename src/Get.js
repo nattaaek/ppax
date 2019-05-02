@@ -21,7 +21,7 @@ export default class Get extends React.Component{
             <Container>
                 <Table>
                     <thead>
-                        <th>ลำดำ</th>
+                        <th>No#</th>
                         <th>ชื่อ-สกุล</th>
                         <th>เช็คอิน</th>
                         <th>เช็คเอ้าท์</th>
